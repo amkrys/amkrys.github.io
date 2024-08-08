@@ -10,8 +10,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Welcome to Bal Krishan Swami's Portfolio</title>
-    <meta name="description" content="Bal Krishan Swami's portfolio website. Android Developer with experience in various industries.">
+    <title>Bal Krishan Swami - Portfolio</title>
+    <meta name="description"
+        content="Bal Krishan Swami's portfolio website. Android Developer with experience in various industries.">
     <meta name="author" content="Bal Krishan Swami">
 
     <!-- mobile specific metas
@@ -40,18 +41,17 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
+    <header id= "toolbar" class="s-header">
 
         <div class="header-logo">
             <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
 
-        <nav class="header-nav-wrap">
+        <nav id="header" class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll" href="#about" title="about">About</a></li>
                 <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
-                <li><a class="smoothscroll" href="#blog" title="blog">Blog</a></li>
                 <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -60,9 +60,11 @@
 
     </header> <!-- end s-header -->
 
+
     <!-- home
-    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+   ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
+        data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2055 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -74,9 +76,9 @@
                 <h3>Hello There</h3>
 
                 <h1>
-                    I am Bal Krishan Swami. <br>
-                    I am an Android Developer <br>
-                    with over 3 years of experience.
+                    I am Bal Krishan Swami, <br>
+                    with over 5 years of experience.
+                    I am an <span class="multiple-text home-content-welcome"></span><br>
                 </h1>
 
                 <div class="home-content__buttons">
@@ -84,7 +86,10 @@
                         Latest Projects
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
+                        Download My CV
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Hire Me Now
                     </a>
                 </div>
 
@@ -100,44 +105,60 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.linkedin.com/in/bal-krishan-swami/"><i class="im im-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://github.com/amkrys"><i class="im im-github"
+                        aria-hidden="true"></i><span>GitHub</span></a>
             </li>
             <li>
-                <a href="https://stackoverflow.com/users/11538411/krishna"><i class="im im-stackoverflow" aria-hidden="true"></i><span>StackOverflow</span></a>
+                <a href="https://stackoverflow.com/users/11538411/krishna/"><i class="im im-stackoverflow"
+                        aria-hidden="true"></i><span>StackOverflow</span></a>
             </li>
             <li>
-                <a href="https://leetcode.com/amkrys/"><i class="im im-leetcode" aria-hidden="true"></i><span>Leetcode</span></a>
+                <a href="https://leetcode.com/u/amkrys/"><img src="images/leetcode.png" alt="LeetCode"
+                        class="home-social-leetcode" /></i><span>LeetCode</span></a>
             </li>
             <li>
-                <a href="https://github.com/amkrys"><i class="im im-github" aria-hidden="true"></i><span>GitHub</span></a>
+                <a href="https://www.facebook.com/krishna.vaishnav.1441810/"><i class="im im-facebook"
+                        aria-hidden="true"></i><span>Facebook</span></a>
             </li>
-        </ul> 
+            <li>
+                <a href="https://www.instagram.com/am_krys/"><i class="im im-instagram"
+                        aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul>
         <!-- end home-social -->
 
     </section> <!-- end s-home -->
 
+
     <!-- about
     ================================================== -->
     <section id="about" class="s-about target-section">
-        
+
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
-                <p class="lead">I am an Android developer with over 3 years of experience in software development, specializing in sectors such as tracking, marketing, edtech, fintech, e-commerce, delivery, and entertainment. Skilled in issue analytics, debugging, UI/UX, and agile methodologies. Proficient in Android SDK, Kotlin, Java, and modern development frameworks and tools.</p>
+                <h1>About Me</h1>
+                <p class="lead">Android developer with over 5 years of experience in software development, specializing
+                    in tracking, marketing, edtech, fintech, e-commerce, delivery, and entertainment. Skilled in issue
+                    analytics, debugging, UI/UX, and agile methodologies. Proficient in Android SDK, Kotlin, Java, and
+                    modern development frameworks and tools. Committed to leveraging new technologies to create
+                    optimized and innovative application solutions.</p>
             </div>
         </div>
 
-        <div class="row about-content">
-
+        <div class="row about-content has-bottom-sep">
             <div class="col-six tab-full left">
-                <h3>Summary!</h3>
-
-                <p>I am passionate about leveraging new technologies to create optimized and innovative application solutions. I have a strong foundation in UI/UX, Material Design, Jetpack Components, and tools like Figma and Sketch.</p>
-
-                <p>
-                My technical skills include proficiency in Android SDK, Java, Kotlin, and XML. I have experience with MVVM, MVC, MVP, and Clean Architecture, and I am proficient with tools like Android Studio, GitHub/GitLab, and Jira.
-                </p>
+                <h3>Summary</h3>
+                <p>As an experienced Android developer with over 5 years of expertise in developing innovative mobile
+                    applications, I have a proven track record of delivering high-quality software solutions. My
+                    expertise spans various industries, including edtech, fintech, e-commerce, tracking, marketing,
+                    delivery, and entertainment. I have successfully implemented user-friendly interfaces and optimized
+                    performance, significantly enhancing user experience and engagement.</p>
+                <p>I am deeply committed to continuous learning and staying updated with the latest technologies and
+                    best practices to ensure the delivery of cutting-edge applications. My technical skills encompass a
+                    wide range of tools and frameworks, including Android SDK, Kotlin, Java, XML, and modern
+                    architectural patterns such as MVVM, MVC, MVP, and Clean Architecture. My proficiency in these areas
+                    enables me to develop robust and scalable applications that meet the highest standards of quality
+                    and performance.</p>
             </div>
 
             <div class="col-six tab-full right">
@@ -145,44 +166,48 @@
 
                 <ul class="skill-bars">
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Android Development</strong>
+                        <div class="progress percent95"><span>95%</span></div>
+                        <strong>Android Development</strong>
                     </li>
                     <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>UI/UX Design</strong>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>Material Design UI/UX</strong>
                     </li>
                     <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Java & Kotlin</strong>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>Java & Kotlin</strong>
                     </li>
                     <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Project Management</strong>
+                        <div class="progress percent80"><span>80%</span></div>
+                        <strong>Jetpack Components</strong>
                     </li>
                     <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>API Integration</strong>
-                    </li>   
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>Version Control</strong>
+                    </li>
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Debugging & Testing</strong>
-                    </li>   
+                        <div class="progress percent80"><span>80%</span></div>
+                        <strong>Team Management</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>Project Management</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent95"><span>95%</span></div>
+                        <strong>API Integration</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>Debugging & Testing</strong>
+                    </li>
                 </ul>
             </div>
 
+            <div class="line-container"></div>
+
         </div> <!-- end about-content -->
 
-        <div class="row about-content about-content--buttons">
-
-            <div class="col-six tab-full left">
-                <a href="Bal_Krishan_Swami_Resume.pdf" class="btn btn--primary full-width">Download My Resume</a>
-            </div>
-            <div class="col-six tab-full right">
-                <a href="#contact" class="smoothscroll btn full-width">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
 
         <div class="row about-content about-content--timeline">
 
@@ -201,9 +226,13 @@
                             <h5>Engineer</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Led module development for a confidential project, integrating user feedback to enhance the interface according to industry standards. Delivered training on MVVM architecture and Data Binding to a diverse group of 50 team members, improving overall team competency. Managed a team of 5 developers, streamlining tasks and project timelines through effective use of Jira.</p>
+                            <p>Led module development for a confidential project, integrating user feedback to enhance
+                                the interface according to industry standards. Delivered training on MVVM architecture
+                                and Data Binding to a diverse group of 50 team members having experience from manager
+                                level to fresher, improving overall team competency. Managed a team of 5 developers,
+                                streamlining tasks and project timelines through effective use of Jira.</p>
                         </div>
-                    </div> <!-- end timeline -->
+                    </div> <!-- end timeline__block -->
 
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
@@ -213,12 +242,14 @@
                             <h5>Android Developer</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Developed applications across various industries, including tracking, marketing, and e-commerce, utilizing Java and Kotlin for Android platforms. Implemented features based on client requirements, delivering projects on time and within budget.</p>
+                            <p>Developed applications across various industries, including tracking, marketing, and
+                                e-commerce, utilizing Java and Kotlin for Android platforms. Implemented features based
+                                on client requirements, delivering projects on time and within budget.</p>
                         </div>
-                    </div> <!-- end timeline -->
+                    </div> <!-- end timeline__block -->
 
-                </div>
-            </div> <!-- end col-six -->
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
 
             <div class="col-six tab-full right">
                 <div class="timeline">
@@ -226,65 +257,204 @@
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">Feb 2020 - Jun 2020</p>
+                            <p class="timeline__timeframe">Feb 2019 - Mar 2020</p>
                             <h3>Volan Software &amp; Technologies (Jaipur)</h3>
                             <h5>Junior Android Developer</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Contributed to developing an education app designed to enhance learning experiences for students, collaborating closely with a small team to iterate quickly based on user feedback.</p>
+                            <p>Contributed to developing various applications including education, food delivering and a
+                                corporate employee managment app designed to enhance user experiences for clients and
+                                users, collaborating closely with a small team to iterate quickly based on cleint
+                                feedback.</p>
                         </div>
-                    </div> <!-- end timeline -->
+                    </div> <!-- end timeline__block -->
 
                     <div class="timeline__block">
                         <div class="timeline__bullet"></div>
                         <div class="timeline__header">
-                            <p class="timeline__timeframe">Internship</p>
+                            <p class="timeline__timeframe">May 2021 - Feb 2023</p>
                             <h3>Freelance Projects</h3>
-                            <h5>Intern</h5>
+                            <h5>Lead Developer</h5>
                         </div>
                         <div class="timeline__desc">
-                            <p>Worked on freelance projects, creating applications that incorporated third-party API integration, improving personal coding skills and understanding of the Android ecosystem.</p>
+                            <p>Worked on freelance projects, creating applications that incorporated third-party API
+                                integration, improving personal coding skills and understanding of the Android
+                                ecosystem.</p>
                         </div>
-                    </div> <!-- end timeline -->
+                    </div> <!-- end timeline__block -->
 
-                </div>
-            </div> <!-- end col-six -->
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
 
         </div> <!-- end about-content timeline -->
 
-    </section> <!-- end s-about -->
+    </section> <!-- end about -->
 
-    <!-- contact
+
+    <!-- works
     ================================================== -->
-    <section id="contact" class="s-contact target-section">
+    <section id="works" class="s-works target-section">
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Get In Touch.</h1>
-                <p class="lead">Feel free to reach out to me for collaboration or any opportunities in the Android development space.</p>
+                <h1>See My Latest Projects.</h1>
+                <p class="lead">Here are some of my recent projects showcasing my skills and expertise in Android
+                    development.</p>
             </div>
         </div>
 
-        <div class="row contact-content">
+        <div class="row masonry-wrap">
+            <div class="masonry" id="masonryContainer"></div>
+        </div> <!-- end masonry -->
 
-            <div class="col-five tab-full contact-primary">
-                <h3>Send Me A Message</h3>
+    </section> <!-- end works -->
 
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    2
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    17+
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    6
+                </div>
+                <h4>Built From Scratch</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    10000
+                </div>
+                <h4>Downloads Achieved</h4>
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">What People Say.</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                    <aside class="pull-quote">
+                        <blockquote>
+                            <p>Bal Krishan's consistent professional track record, his empathetic nature, and ability to
+                                interact and co-ordinate with his team are beyond amazing.
+                                Although we never worked together, we have been connected on LinkedIn for quite some
+                                time, which
+                                made me write a few words for him.
+                                I have seen him participate in office activities, and heard some nice words from his
+                                peers. Keep
+                                up the good work 💯.
+                        </blockquote>
+                    </aside>
+                    <div class="testimonials__author h06">
+                        Neeti Kotia
+                        <span>Senior Content Writer | Marketing Communications, MCA</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                    <aside class="pull-quote">
+                        <blockquote>
+                            <p>Bal Krishan is amazing at his job! he knows his way around people, he does whatever it
+                                takes to
+                                help his colleagues and get things done. He makes sure that everyone is on the same page
+                                and focused on the main goal.
+                                The success achieved in his job requires extensive knowledge and dedication. He is an
+                                asset to
+                                any company.
+                        </blockquote>
+                    </aside>
+                    <div class="testimonials__author h06">
+                        Dushyant Kumar
+                        <span>Consultant at Bristlecone</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+
+                    <aside class="pull-quote">
+                        <blockquote>
+                            <p>You're decent, dedicated, experienced and fluent in mobile application development.
+                                I wish you could start working remotely from now onwards instead of seeking for jobs.
+                                You're one of the best teammate I've ever had brother!
+                        </blockquote>
+                    </aside>
+                    <div class="testimonials__author h06">
+                        Sunmughan Swamy
+                        <span>CEO, CodeAir</span>
+                    </div>
+                </div>
+
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h1>Get In Touch</h1>
+                <p class="lead">Feel free to reach out to me for collaboration or any opportunities in the Android
+                    development space.</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
                 <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
 
                         <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                            <input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+                                minlength="2" required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+                                required="" aria-required="true" class="full-width">
                         </div>
                         <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                                class="full-width">
                         </div>
                         <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10"
+                                cols="50" required="" aria-required="true" class="full-width"></textarea>
                         </div>
                         <div class="form-field">
                             <button class="full-width btn--primary">Submit</button>
@@ -311,54 +481,92 @@
                     Your message was sent, thank you!<br>
                 </div>
 
-            </div> <!-- end contact-primary -->
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Call Me At</h4>
+                <p>Mobile: (+91) 97856 74228<br>
+                </p>
+                <h4 class="h06">Email Me At</h4>
+                <p>balkrishnaswami22@gmail.com<br>
+                </p>
+                <h4 class="h06">Where to Find Me</h4>
+                <p>
+                    Jhunjhunu, Rajasthan<br>
+                    333024
+                </p>
+            </div>
 
-            <div class="col-four tab-full contact-secondary">
-
-                <h3>Contact Info</h3>
-
-                <div class="cinfo">
-                    <h5>Where to Find Me</h5>
-                    <p>
-                        Islampur (Bagar) Jhunjhunu<br>
-                        Rajasthan<br>
-                        333024
-                    </p>
-
-                    <h5>Email Me At</h5>
-                    <p>
-                        balkrishnaswami22@gmail.com
-                    </p>
-
-                    <h5>Call Me At</h5>
-                    <p>
-                        Mobile: (+91) 9785674228<br>
-                    </p>
-                </div> <!-- end cinfo -->
-
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end contact-content -->
+        </div>
 
     </section> <!-- end s-contact -->
 
+
+    <!-- footer
+    ================================================== -->
     <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo-large.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://github.com/amkrys">
+                            <i class="im im-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a></li>
+                    <li><a href="https://stackoverflow.com/users/11538411/krishna/">
+                            <i class="im im-stackoverflow" aria-hidden="true"></i>
+                            <span>StackOverflow</span>
+                        </a></li>
+                    <li><a href="https://leetcode.com/u/amkrys/">
+                            <img src="images/leetcode.png" alt="LeetCode" class="footer-social-leetcode" />
+                            <span>LeetCode</span>
+                        </a></li>
+                    <li><a href="https://www.facebook.com/krishna.vaishnav.1441810/">
+                            <i class="im im-facebook" aria-hidden="true"></i>
+                            <span>Facebook</span>
+                        </a></li>
+                    <li><a href="https://www.instagram.com/am_krys/">
+                            <i class="im im-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                        </a></li>
+                </ul>
+
+            </div>
+        </div>
+
         <div class="row footer-bottom">
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Bal Krishan Swami 2024</span>
-                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                    <span>© Copyright Bal Krishan Swami</span>
+                    <span>Made with ❤️ by <a href="https://www.github.com/amkrys">Bal Krishan Swami</a></span>
                 </div>
 
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                <div id="gotopbutton" class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
+                            aria-hidden="true"></i></a>
                 </div>
             </div>
 
         </div> <!-- end footer-bottom -->
 
-    </footer>
+    </footer> <!-- end footer -->
+
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div> 
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
