@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amkrys.github.io/sitemap.xml
