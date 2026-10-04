@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bal Krishan Swami – Senior Android Engineer – Resume</title>
+<meta name="author" content="Bal Krishan Swami">
+<meta name="description" content="Senior Android Engineer / Senior Android Developer resume: Kotlin, Jetpack Compose, Kotlin Multiplatform, Compose Multiplatform, mobile SDKs, AI-assisted engineering, Agile/Scrum team lead.">
+<meta name="robots" content="noindex">
+<style>
+    /* Computer Modern, same face as the LaTeX template */
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunrm.woff") format("woff"); font-weight: 400; font-style: normal; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunbx.woff") format("woff"); font-weight: 700; font-style: normal; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunti.woff") format("woff"); font-weight: 400; font-style: italic; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunbi.woff") format("woff"); font-weight: 700; font-style: italic; }
+
+    @page { size: A4; margin: 10mm 12.5mm 10mm; }
+
+    * { box-sizing: border-box; }
+    html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body {
+        margin: 0; color: #000; background: #fff;
+        font-family: "CMU Serif", "Latin Modern Roman", "Times New Roman", serif;
+        font-size: 10.2pt; line-height: 1.23;
+        /* ATS: no ligatures, so "fi", "fl", "ffl" extract as plain letters */
+        font-variant-ligatures: none; font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+        hyphens: none;
+    }
+    .page { max-width: 185mm; margin: 0 auto; }
+    @media screen { body { background: #e9e9ee; } .page { background: #fff; padding: 10mm 12.5mm; margin: 24px auto; box-shadow: 0 6px 30px rgba(0,0,0,.15); max-width: 210mm; } }
+
+    a { color: inherit; text-decoration: none; }
+    .u { text-decoration: underline; text-underline-offset: 2pt; text-decoration-thickness: .5pt; }
+
+    /* ---------- header ---------- */
+    header { text-align: center; margin-bottom: 2pt; }
+    h1 { font-size: 24pt; font-weight: 700; font-variant: small-caps; letter-spacing: .5pt; margin: 0; line-height: 1.05; }
+    .headline { margin: 2pt 0 2.5pt; font-size: 10.2pt; font-weight: 700; }
+    .contact { margin: 0; font-size: 9.4pt; }
+    .contact .sep { margin: 0 4pt; }
+
+    /* ---------- sections ---------- */
+    h2 {
+        font-size: 11.6pt; font-weight: 700; font-variant: small-caps; letter-spacing: .2pt;
+        margin: 7pt 0 3pt; padding-bottom: .5pt; border-bottom: .6pt solid #000;
+        break-after: avoid;
+    }
+    h3.group { font-size: 10pt; font-style: italic; font-weight: 700; margin: 3pt 0 0; break-after: avoid; }
+    .entry { margin-bottom: 4.5pt; }
+    .entry-head { break-inside: avoid; break-after: avoid; }
+    .row { display: flex; justify-content: space-between; align-items: baseline; gap: 10pt; }
+    .row b { font-weight: 700; }
+    .row .r { text-align: right; white-space: nowrap; }
+    .sub { font-style: italic; }
+    ul { margin: 1pt 0 0; padding-left: 14pt; }
+    li { margin: 0 0 1pt; padding-left: 1pt; break-inside: avoid; }
+    li::marker { font-size: 8pt; }
+    p { margin: 0; }
+    .summary { text-align: justify; }
+
+    /* core competencies: plain list laid out in three columns (reads fine as text) */
+    .competencies { columns: 3; column-gap: 14pt; margin: 1pt 0 0; padding-left: 14pt; }
+    .competencies li { margin-bottom: .6pt; }
+
+    .proj { margin-bottom: 2.6pt; break-inside: avoid; }
+    .proj .tech { font-style: italic; }
+    .proj .r { font-size: 9.6pt; }
+    .proj p { padding-left: 10pt; }
+
+    .skills { margin: 0; padding-left: 4pt; }
+    .skills p { margin-bottom: 1.2pt; padding-left: 10pt; text-indent: -10pt; }
+    .skills b { font-weight: 700; }
+</style>
+</head>
+<body>
+<main class="page">
+
+    <header>
+        <h1>Bal Krishan Swami</h1>
+        <p class="headline">Senior Android Engineer | Android Developer | Kotlin Multiplatform | AI-Assisted Engineering</p>
+        <p class="contact">
+            India (open to relocation &amp; remote) · Immediate joiner<span class="sep">|</span><a href="tel:+919785674228">+91 97856 74228</a><span class="sep">|</span><a class="u" href="mailto:balkrishnaswami22@gmail.com">balkrishnaswami22@gmail.com</a><br>
+            <a class="u" href="https://www.linkedin.com/in/bal-krishan-swami/">linkedin.com/in/bal-krishan-swami</a><span class="sep">|</span><a class="u" href="https://github.com/amkrys">github.com/amkrys</a><span class="sep">|</span><a class="u" href="https://amkrys.github.io/">amkrys.github.io</a><span class="sep">|</span><a class="u" href="https://stackoverflow.com/users/11538411/krishna">stackoverflow.com/users/11538411</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p class="summary">
+            Senior Android Engineer and Android Developer with <b>7+ years</b> building native Android apps and mobile SDKs with <b>Kotlin</b>, Java and <b>Jetpack Compose</b>. Architected a <b>Kotlin Multiplatform (KMP)</b> and
+            <b>Compose Multiplatform (CMP)</b> SDK shipped on Android and iOS, and worked on a digital health app with
+            <b>1L+ downloads and active users</b>, covering GLP-1 program features, app security and <b>WCAG 2.1</b> accessibility.
+            Led a team of <b>5 engineers</b> in Agile/Scrum sprints and trained <b>50+ engineers</b> at Samsung R&amp;D.
+            Hands-on <b>AI-assisted software engineer</b>: contributed to an LLM-based AI developer agent; uses Cursor, Claude, Gemini and Copilot daily with human review.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <p><b>Languages:</b> Kotlin, Java, XML</p>
+            <p><b>Android:</b> Android SDK, Jetpack Compose, Android Jetpack (ViewModel, Room, Paging, Navigation, DataStore, Data Binding), Material Design, Wearable UI (Galaxy Watch)</p>
+            <p><b>Multiplatform:</b> Kotlin Multiplatform (KMP), Compose Multiplatform (CMP), shared UI, platform abstractions</p>
+            <p><b>Architecture:</b> Clean Architecture, MVI, MVVM, MVP, UDF, Modularization, SDK &amp; API Design, Kotlin DSL</p>
+            <p><b>Async &amp; DI:</b> Kotlin Coroutines, Kotlin Flow, Hilt (Dependency Injection)</p>
+            <p><b>Networking &amp; Data:</b> Retrofit, REST APIs, Room, SQLite, Jetpack DataStore, Offline Sync, Swagger</p>
+            <p><b>Integrations:</b> Firebase Cloud Messaging (FCM), Google Maps, Razorpay, Stripe, Braintree, Google Pay, Twilio, ExoPlayer, Folio Reader SDK, Social Login, React Native bridges</p>
+            <p><b>Accessibility:</b> WCAG 2.1, TalkBack, VoiceOver, Compose Semantics, focus order, dynamic font scaling</p>
+            <p><b>AI &amp; LLM Tools:</b> AI-Assisted Development, Generative AI, LLM-based developer agents, AI coding assistants, Cursor, Claude, Gemini, GitHub Copilot, human-in-the-loop review</p>
+            <p><b>Leadership &amp; Process:</b> Technical Leadership, Team Lead, Mentoring, Agile, Scrum, Sprints, Code Review</p>
+            <p><b>Tools:</b> Android Studio, Git, GitHub, GitLab, Jira, Confluence, SonarQube, R8/ProGuard</p>
+            <p><b>Platform:</b> AOSP, Custom ROMs, Linux kernel patches, build scripts</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+
+        <div class="entry">
+            <div class="entry-head">
+                <div class="row"><b>Senior Software Engineer (Android &amp; Kotlin Multiplatform)</b><b class="r">Sep 2024 – Aug 2026</b></div>
+                <div class="row sub"><span>Dario Health</span><span class="r">Digital Health</span></div>
+            </div>
+
+            <h3 class="group">Kotlin Multiplatform SDK (Android &amp; iOS)</h3>
+            <ul>
+                <li>Architected a <b>Kotlin Multiplatform (KMP)</b> + <b>Compose Multiplatform (CMP)</b> SDK for Android and iOS, sharing business logic, state management, networking and UI across both platforms.</li>
+                <li>Designed the SDK end to end: Kotlin <b>DSL configuration API</b>, core journey engine, <b>MVI</b> state layer, Compose renderers, shared design system and platform abstractions for media, analytics, image loading, deep links and authentication.</li>
+                <li>Built the <b>Discover</b> feature module in Compose Multiplatform using MVI / unidirectional data flow (UDF), Kotlin Coroutines and Flow, shipped on Android and iOS from a single codebase.</li>
+            </ul>
+
+            <h3 class="group">Dario Health Android App (1L+ downloads &amp; active users)</h3>
+            <ul>
+                <li>Developed Android features for the <b>GLP-1 program</b> phase and other product areas of the flagship app.</li>
+                <li>Worked on Android <b>app security</b> for the healthcare app.</li>
+                <li>Modernized legacy code toward Kotlin, <b>Jetpack Compose</b>, <b>Clean Architecture</b> and modular features.</li>
+                <li>Implemented <b>WCAG 2.1</b> accessibility: Compose Semantics, TalkBack, VoiceOver, focus order, touch targets and dynamic font scaling.</li>
+                <li>Built native Android modules and bridges for <b>React Native</b> host apps.</li>
+            </ul>
+
+            <h3 class="group">AI-Assisted Software Engineering</h3>
+            <ul>
+                <li>Contributed to an internal <b>LLM-based AI developer agent</b> that turns PRDs and codebase context into technical approaches, Confluence documentation and Jira tasks, with every output reviewed by engineers (human-in-the-loop).</li>
+                <li>Used <b>AI coding assistants</b> daily (Cursor, Claude, Gemini, GitHub Copilot) across the development workflow, with engineer review of all AI-generated code.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-head">
+                <div class="row"><b>Engineer (Android)</b><b class="r">Apr 2023 – Apr 2024</b></div>
+                <div class="row sub"><span>Samsung R&amp;D Institute India</span><span class="r">Noida, India</span></div>
+            </div>
+            <ul>
+                <li>Built a new Android module from scratch for a confidential enterprise app using Kotlin, <b>MVVM</b> and Data Binding.</li>
+                <li>Led a team of <b>5 Android engineers</b> in <b>Agile/Scrum</b>: Jira, sprint execution and task allocation.</li>
+                <li>Trained <b>50+ engineers</b>, from freshers to managers, on MVVM architecture and Data Binding.</li>
+                <li>Developed <b>Galaxy Watch</b> Contacts and Emergency Contacts features, with wearable UI and touch targets tuned for small screens.</li>
+                <li>Maintained code quality through code reviews and <b>SonarQube</b> static analysis.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-head">
+                <div class="row"><b>Android Developer</b><b class="r">Feb 2019 – Mar 2023</b></div>
+                <div class="row sub"><span>Service-Based Companies</span><span class="r">India</span></div>
+            </div>
+            <ul>
+                <li>Worked on <b>27+ Android projects</b> across healthcare, e-commerce, education, food delivery, agriculture, gaming and social, including Taleek (<b>10L+ downloads</b>) and apps for US clients.</li>
+                <li><b>Lead Android developer</b> on KOSO, Offleash’d, Subsational and Storywise (Pencils of Promise); enhancement, maintenance and UI design on other client apps.</li>
+                <li>Built native Android apps in <b>Kotlin and Java</b> with MVVM, MVP, Retrofit, Room, Hilt, Coroutines/Flow, Jetpack DataStore and Data Binding.</li>
+                <li>Integrated <b>payment gateways</b> (Razorpay, Stripe, Braintree, Google Pay), social login, Firebase Cloud Messaging (FCM), Google Maps, Twilio live sessions and offline sync.</li>
+                <li>Implemented ExoPlayer video playback and <b>R8/ProGuard</b> code shrinking and obfuscation.</li>
+                <li>Gathered client requirements and contributed UI/UX design on several apps.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Key Projects</h2>
+
+        <div class="proj">
+            <div class="row"><span><b>Dario Health – Android App</b> | <span class="tech">Kotlin, Jetpack Compose, Clean Architecture, WCAG 2.1</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.labstyle.darioandroid">Google Play</a></div>
+            <p>Healthcare app (1L+ active users): GLP-1 program features, app security, accessibility and modernization.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Galaxy Watch Contacts</b> | <span class="tech">Wearable UI, Galaxy Watch</span></span><span class="r">Samsung R&amp;D</span></div>
+            <p>Contacts and Emergency Contacts features on Galaxy Watch, with touch targets tuned for small screens.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Taleek – Language Lessons</b> | <span class="tech">ExoPlayer, Twilio, Razorpay, R8, ProGuard, MVVM</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.taleek.app">Google Play</a></div>
+            <p>Video lessons in 6 languages with <b>10L+ downloads</b>, live Twilio sessions and Razorpay subscriptions.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Subsational</b> | <span class="tech">Java, MVP, Stripe, Braintree, Google Pay, Google Maps</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.subseats">Google Play</a></div>
+            <p>Lead developer and UI/UX on a US food-ordering app with three payment gateways and social login.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Kisan Kamdhenoo Marketplace (KKM)</b> | <span class="tech">MVVM, FCM, Social Login, Swagger</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.kipl.kkm">Google Play</a></div>
+            <p>App development and UI design for a marketplace connecting farmers, traders, FPOs and cooperatives.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Offleash’d</b> | <span class="tech">MVVM, FCM, Social Login, Android Jetpack</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.offleashd">Google Play</a></div>
+            <p>Lead developer on the native Android app for a pet owners’ social platform with push notifications.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Storywise – Pencils of Promise</b> | <span class="tech">Room, Offline-First, Offline Sync</span></span><a class="r u" href="https://pencilsofpromise.org/">pencilsofpromise.org</a></div>
+            <p>Lead developer on an offline book-reading app for low-connectivity areas, with content stored locally in Room.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>KOSO</b> | <span class="tech">Kotlin, Retrofit, Hilt, Jetpack DataStore, Kotlin Flow, MVVM</span></span><span class="r">Lead Developer</span></div>
+            <p>Led development of a spin-wheel game app with Kotlin, Hilt, DataStore, Flow and Data Binding.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>VJ Education</b> | <span class="tech">Folio Reader SDK, Room, Material Design</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.vj.education">Google Play</a></div>
+            <p>Feature development and maintenance for a competitive-exam preparation app, including e-book reading.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>TelemedReferral</b> | <span class="tech">Telemedicine, Audio &amp; Video Calls</span></span><a class="r u" href="https://play.google.com/store/apps/details?id=com.telemed.referral">Google Play</a></div>
+            <p>Connects doctors with specialists across 75+ sub-specialty types for audio and video consultations.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>DealZapp</b> and <b>iSave Business</b> | <span class="tech">Social Login, QR Scanning, Maps, Material Design</span></span><span class="r">Retail &amp; Deals</span></div>
+            <p>Local deals apps: UI redesign and social login (DealZapp); QR-code discounts with map views (iSave).</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>Custom ROMs – MIUI 9 Port &amp; AOSP-JDC</b> | <span class="tech">AOSP, Linux Kernel, Build Scripts</span></span><a class="r u" href="https://xdaforums.com/m/krishnavaishnav.6556823/">XDA Developers</a></div>
+            <p>Ported MIUI 9 and built AOSP-JDC for the Micromax A102 (MT6572), with kernel patches and build scripts.</p>
+        </div>
+        <div class="proj">
+            <div class="row"><span><b>android_code_library</b> (open source) | <span class="tech">Room, Paging, NavigationUI, MVVM, MVP, MVC</span></span><a class="r u" href="https://github.com/amkrys/android_code_library">GitHub</a></div>
+            <p>Android code book with notification types, Room, Paging, NavigationUI and architecture samples.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="row"><b>Bachelor of Technology (B.Tech), Computer Science &amp; Engineering – 74%</b><b class="r">2019</b></div>
+            <div class="row sub"><span>Bhartiya Institute of Engineering &amp; Technology, Rajasthan Technical University</span><span class="r">Sikar, Rajasthan</span></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Awards &amp; Additional Information</h2>
+        <ul>
+            <li><b>Star Performer of the Month</b> and <b>Employee of the Month</b> (Sep 2019) at service-based companies.</li>
+            <li><b>Languages:</b> English, Hindi, Bengali &nbsp;·&nbsp; Rubik’s cube in 48 seconds</li>
+        </ul>
+    </section>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bal Krishan Swami – Resume</title>
+<meta name="robots" content="noindex">
+<style>
+    /* Computer Modern, same face as the LaTeX template */
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunrm.woff") format("woff"); font-weight: 400; font-style: normal; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunbx.woff") format("woff"); font-weight: 700; font-style: normal; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunti.woff") format("woff"); font-weight: 400; font-style: italic; }
+    @font-face { font-family: "CMU Serif"; src: url("fonts/cmunbi.woff") format("woff"); font-weight: 700; font-style: italic; }
+
+    @page { size: A4; margin: 9mm 12mm 8mm; }
+
+    * { box-sizing: border-box; }
+    html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body {
+        margin: 0; color: #000; background: #fff;
+        font-family: "CMU Serif", "Latin Modern Roman", "Times New Roman", serif;
+        font-size: 10pt; line-height: 1.2;
+    }
+    .page { max-width: 184mm; margin: 0 auto; }
+    @media screen { body { background: #e9e9ee; } .page { background: #fff; padding: 11mm 13mm; margin: 24px auto; box-shadow: 0 6px 30px rgba(0,0,0,.15); max-width: 210mm; } }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ---------- header ---------- */
+    header { text-align: center; margin-bottom: 4pt; }
+    h1 { font-size: 24pt; font-weight: 700; font-variant: small-caps; letter-spacing: .5pt; margin: 0; line-height: 1.05; }
+    .tagline { margin: 1.5pt 0 2.5pt; font-size: 9.6pt; }
+    .contact { display: flex; flex-wrap: wrap; justify-content: center; gap: 2.5pt 10pt; font-size: 9.2pt; }
+    .contact .break { flex-basis: 100%; height: 0; }
+    .contact a, .contact span { display: inline-flex; align-items: center; gap: 3.5pt; }
+    .contact a .t { text-decoration: underline; text-underline-offset: 2pt; text-decoration-thickness: .5pt; }
+    .ico { width: 8.8pt; height: 8.8pt; flex: none; fill: #000; }
+
+    /* ---------- sections ---------- */
+    h2 {
+        font-size: 11.6pt; font-weight: 700; font-variant: small-caps; letter-spacing: .2pt;
+        margin: 5.5pt 0 3pt; padding-bottom: .5pt; border-bottom: .6pt solid #000;
+    }
+    .entry { margin-bottom: 3.5pt; break-inside: avoid; }
+    .row { display: flex; justify-content: space-between; align-items: baseline; gap: 10pt; }
+    .row b { font-weight: 700; }
+    .row .r { text-align: right; white-space: nowrap; }
+    .sub { font-style: italic; font-size: 9.6pt; }
+    ul { margin: 1pt 0 0; padding-left: 14pt; }
+    li { margin: 0 0 .6pt; padding-left: 1pt; }
+    li::marker { font-size: 8pt; }
+    .summary { margin: 0 0 1pt; text-align: justify; }
+
+    .proj .row { justify-content: space-between; }
+    .proj .tech { font-style: italic; }
+    .proj .r a { text-decoration: underline; text-underline-offset: 2pt; text-decoration-thickness: .5pt; font-size: 9.9pt; }
+
+    .skills { margin: 0; padding-left: 9pt; }
+    .skills div { margin-bottom: .4pt; }
+    .skills b { font-weight: 700; }
+</style>
+</head>
+<body>
+<main class="page">
+
+    <header>
+        <h1>Bal Krishan Swami</h1>
+        <p class="tagline">Senior Android Engineer &nbsp;·&nbsp; Kotlin Multiplatform &amp; Compose Multiplatform &nbsp;·&nbsp; Immediate joiner &nbsp;·&nbsp; Open to relocation</p>
+        <div class="contact">
+            <a href="tel:+919785674228"><svg class="ico" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg><span>+91 97856 74228</span></a>
+            <a href="mailto:balkrishnaswami22@gmail.com"><svg class="ico" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5v2.2z"/></svg><span class="t">balkrishnaswami22@gmail.com</span></a>
+            <a href="https://amkrys.github.io/"><svg class="ico" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 6h-2.95a15.7 15.7 0 0 0-1.38-3.56A8 8 0 0 1 18.9 8zM12 4.04A14 14 0 0 1 13.91 8h-3.82A14 14 0 0 1 12 4.04zM4.26 14a8.2 8.2 0 0 1 0-4h3.38a16.5 16.5 0 0 0 0 4H4.26zm.82 2h2.95c.32 1.25.78 2.450 1.38 3.56A8 8 0 0 1 5.08 16zm2.95-8H5.08a8 8 0 0 1 4.33-3.56A15.7 15.7 0 0 0 8.03 8zM12 19.96A14 14 0 0 1 10.09 16h3.82A14 14 0 0 1 12 19.96zM14.34 14H9.66a14.7 14.7 0 0 1 0-4h4.68a14.7 14.7 0 0 1 0 4zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8 8 0 0 1-4.33 3.56zM16.36 14a16.5 16.5 0 0 0 0-4h3.38a8.2 8.2 0 0 1 0 4h-3.38z"/></svg><span class="t">amkrys.github.io</span></a>
+            <span class="break" aria-hidden="true"></span>
+            <a href="https://www.linkedin.com/in/bal-krishan-swami/"><svg class="ico" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><span class="t">linkedin.com/in/bal-krishan-swami</span></a>
+            <a href="https://github.com/amkrys"><svg class="ico" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg><span class="t">github.com/amkrys</span></a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Summary</h2>
+        <p class="summary">
+            Senior Android Engineer with 7+ years in Kotlin and Jetpack Compose. Architected a Kotlin Multiplatform +
+            Compose Multiplatform SDK shipped on Android and iOS, worked on a healthcare app with 1L+ active users, and led a
+            team of 5 at Samsung R&amp;D. Focused on clean architecture, accessible UI and AI-assisted engineering.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <div class="entry">
+            <div class="row"><b>Dario Health</b><b class="r">Sep 2024 – Aug 2026</b></div>
+            <div class="row sub"><span>Senior Software Engineer</span><span class="r">Android &amp; Kotlin Multiplatform</span></div>
+            <ul>
+                <li>Architected a <b>Kotlin Multiplatform</b> + <b>Compose Multiplatform</b> SDK for Android and iOS sharing business logic, state, networking and UI: DSL configuration API, journey engine, MVI state layer, Compose renderers, design system and platform abstractions.</li>
+                <li>Built the <b>Discover</b> module in Compose Multiplatform (MVI/UDF, Coroutines, Flow), shipped on Android &amp; iOS.</li>
+                <li>Worked on the <b>Dario Health Android app</b> (1L+ downloads &amp; active users): GLP-1 program features, app security, and modernization toward Kotlin, Jetpack Compose, Clean Architecture and modular features.</li>
+                <li>Delivered <b>WCAG 2.1</b> accessibility (Compose Semantics, TalkBack, VoiceOver, focus order, font scaling); built native Android modules and bridges for React Native host apps.</li>
+                <li>Contributed to an internal AI developer agent turning PRDs and codebase context into technical approaches, Confluence docs and Jira tasks, always reviewed by engineers.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="row"><b>Samsung R&amp;D Institute India</b><b class="r">Apr 2023 – Apr 2024</b></div>
+            <div class="row sub"><span>Engineer</span><span class="r">Noida, India</span></div>
+            <ul>
+                <li>Built a new Android module from scratch for a confidential enterprise app (Kotlin, MVVM, Data Binding).</li>
+                <li>Led a team of <b>5 engineers</b> and trained <b>50+ engineers</b>, freshers to managers, on MVVM and Data Binding.</li>
+                <li>Developed <b>Galaxy Watch</b> Contacts and Emergency Contacts features; code quality via reviews and SonarQube.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="row"><b>Service-Based Companies</b><b class="r">Feb 2019 – Mar 2023</b></div>
+            <div class="row sub"><span>Android Developer</span><span class="r">India</span></div>
+            <ul>
+                <li>Worked on <b>27+ projects</b> across healthcare, e-commerce, education, food, agriculture, gaming and social; lead developer on several.</li>
+                <li>Kotlin, Java, MVVM, MVP, Retrofit, Room, Hilt, Coroutines/Flow; payments (Razorpay, Stripe, Braintree, Google Pay), FCM, Maps, Twilio.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="entry proj">
+            <div class="row"><span><b>Taleek – Language Lessons</b> | <span class="tech">Kotlin, ExoPlayer, Twilio, Razorpay</span></span><span class="r"><a href="https://play.google.com/store/apps/details?id=com.taleek.app">Google Play</a></span></div>
+            <ul><li>Video lessons in 6 languages with <b>10L+ downloads</b>, live Twilio sessions and Razorpay subscriptions.</li></ul>
+        </div>
+        <div class="entry proj">
+            <div class="row"><span><b>Subsational</b> | <span class="tech">Java, MVP, Stripe, Braintree, Google Pay, Google Maps</span></span><span class="r"><a href="https://play.google.com/store/apps/details?id=com.subseats">Google Play</a></span></div>
+            <ul><li>Lead developer and UI/UX on a US food-ordering app with three payment gateways, maps and social login.</li></ul>
+        </div>
+        <div class="entry proj">
+            <div class="row"><span><b>Storywise · Pencils of Promise</b> | <span class="tech">Kotlin, Room, Offline-first</span></span><span class="r"><a href="https://pencilsofpromise.org/">pencilsofpromise.org</a></span></div>
+            <ul><li>Lead developer on an offline book-reading app for low-connectivity areas, with content stored locally in Room.</li></ul>
+        </div>
+        <div class="entry proj">
+            <div class="row"><span><b>Custom ROMs – MIUI 9 Port &amp; AOSP-JDC</b> | <span class="tech">AOSP, Kernel, Build scripts</span></span><span class="r"><a href="https://xdaforums.com/m/krishnavaishnav.6556823/">XDA Developers</a></span></div>
+            <ul><li>Ported MIUI 9 and built AOSP-JDC for the Micromax A102 (MT6572), with kernel patches and build scripts.</li></ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div><b>Languages &amp; UI</b>: Kotlin, Java, Jetpack Compose, XML Views, Data Binding, Material Design, Wearable UI</div>
+            <div><b>Multiplatform</b>: Kotlin Multiplatform, Compose Multiplatform, shared design systems, platform abstractions</div>
+            <div><b>Architecture</b>: Clean Architecture, MVI/UDF, MVVM, MVP, modular features, SDK &amp; DSL API design</div>
+            <div><b>Libraries</b>: Coroutines, Flow, Hilt, Retrofit, Room, Jetpack DataStore, ExoPlayer, FCM, Google Maps, Twilio</div>
+            <div><b>Accessibility</b>: WCAG 2.1, Compose Semantics, TalkBack, VoiceOver, focus order, dynamic font scaling</div>
+            <div><b>Tools &amp; AI</b>: Jira, Confluence, SonarQube, R8/ProGuard, Cursor, Claude, Gemini, GitHub Copilot</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="row"><b>Bhartiya Institute of Engineering &amp; Technology (Rajasthan Technical University)</b><b class="r">2019</b></div>
+            <div class="row sub"><span>B.Tech, Computer Science &amp; Engineering – 74%</span><span class="r">Sikar, Rajasthan</span></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Awards &amp; More</h2>
+        <ul>
+            <li><b>Star Performer of the Month</b> and <b>Employee of the Month</b> (Sep 2019) at service-based companies.</li>
+            <li>Open source: <a href="https://github.com/amkrys/android_code_library"><u>android_code_library</u></a> (Android code book)</li>
+            <li>Languages: English, Hindi, Bengali &nbsp;·&nbsp; Solves a 3×3 Rubik’s cube in 48 seconds</li>
+        </ul>
+    </section>
+
+</main>
+</body>
+</html>
