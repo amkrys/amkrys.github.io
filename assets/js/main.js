@@ -76,7 +76,7 @@
     links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
 
     // Sections without their own nav item map to the closest one
-    var navFor = { about: 'about', experience: 'experience', work: 'work', apps: 'work', stack: 'stack', ai: 'stack', accessibility: 'stack', roms: 'stack', education: 'stack', contact: 'contact' };
+    var navFor = { about: 'about', experience: 'experience', work: 'work', apps: 'work', stack: 'stack', ai: 'stack', accessibility: 'stack', roms: 'stack', education: 'stack', recommendations: 'contact', contact: 'contact' };
 
     var sectionObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
@@ -114,6 +114,31 @@
             revealObserver.observe(el);
         });
     }
+})();
+
+/* ---------- recommendations: cap long quotes behind "Read more" ---------- */
+(function () {
+    document.querySelectorAll('.rec__quote').forEach(function (quote, i) {
+        quote.classList.add('is-clamped');
+        // Only collapse quotes that are clearly longer than the cap; short ones stay in full
+        if (quote.scrollHeight <= quote.clientHeight * 1.35) {
+            quote.classList.remove('is-clamped');
+            return;
+        }
+        quote.id = quote.id || 'rec-quote-' + i;
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'rec__toggle';
+        btn.setAttribute('aria-controls', quote.id);
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = 'Read more';
+        btn.addEventListener('click', function () {
+            var open = quote.classList.toggle('is-clamped') === false;
+            btn.setAttribute('aria-expanded', String(open));
+            btn.textContent = open ? 'Show less' : 'Read more';
+        });
+        quote.insertAdjacentElement('afterend', btn);
+    });
 })();
 
 /* ---------- copy email + footer year (independent of observer support) ---------- */

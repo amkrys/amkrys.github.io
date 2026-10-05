@@ -54,8 +54,8 @@
     <link rel="preload" href="assets/fonts/montserrat-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/montserrat-bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" as="image" href="assets/img/hero-1200.jpg" imagesrcset="assets/img/hero-1200.jpg 1200w, assets/img/hero-2000.jpg 2000w" imagesizes="100vw" fetchpriority="high">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style.css?v=20261005b">
+    <script src="assets/js/main.js?v=20261005b" defer></script>
 
     <script type="application/ld+json">
     {
@@ -66,13 +66,13 @@
         "url": "https://amkrys.github.io/",
         "image": "https://amkrys.github.io/assets/img/og-image.jpg",
         "email": "mailto:balkrishnaswami22@gmail.com",
-        "address": { "@type": "PostalAddress", "addressCountry": "IN" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Gurgaon", "addressRegion": "Haryana", "addressCountry": "IN" },
         "alumniOf": {
             "@type": "CollegeOrUniversity",
             "name": "Bhartiya Institute of Engineering & Technology, Sikar (Rajasthan Technical University)"
         },
         "knowsLanguage": ["English", "Hindi", "Bengali"],
-        "knowsAbout": ["Android", "Kotlin", "Jetpack Compose", "Kotlin Multiplatform", "Compose Multiplatform", "Mobile SDKs", "Accessibility", "AI-assisted engineering"],
+        "knowsAbout": ["Android", "Kotlin", "Jetpack Compose", "Kotlin Multiplatform", "Compose Multiplatform", "Mobile SDKs", "Mobile security", "Android NDK", "Accessibility", "AI-assisted engineering"],
         "sameAs": [
             "https://www.linkedin.com/in/bal-krishan-swami/",
             "https://github.com/amkrys",
@@ -106,7 +106,7 @@
             </nav>
 
             <div class="site-header__actions">
-                <a class="btn btn--sm btn--primary header-resume" href="data/resume.pdf" download="Bal-Krishan-Swami-SDE2-AI-Engineer-7-Years.pdf">
+                <a class="btn btn--sm btn--primary header-resume" href="data/resume.pdf" download="Bal-Krishan-Swami-Senior-Android-AI-Engineer-7-YOE.pdf">
                     <svg aria-hidden="true" viewBox="0 0 24 24" class="i"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>
                     Resume
                 </a>
@@ -157,13 +157,13 @@
                 </p>
                 <div class="hero__ctas">
                     <a class="btn btn--primary" href="#work">View my work</a>
-                    <a class="btn btn--ghost" href="data/resume.pdf" download="Bal-Krishan-Swami-SDE2-AI-Engineer-7-Years.pdf">
+                    <a class="btn btn--ghost" href="data/resume.pdf" download="Bal-Krishan-Swami-Senior-Android-AI-Engineer-7-YOE.pdf">
                         <svg aria-hidden="true" viewBox="0 0 24 24" class="i"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>
                         Download resume
                     </a>
                     <a class="btn btn--ghost" href="#contact">Get in touch</a>
                 </div>
-                <p class="hero__meta">Based in India · Open to relocation and remote</p>
+                <p class="hero__meta">Based in Gurgaon, India · Open to relocation and remote</p>
             </div>
 
             <ul class="hero__social" aria-label="Profiles">
@@ -192,7 +192,7 @@
                 <div class="about-grid">
                     <div class="prose reveal">
                         <p>
-                            I'm a Senior Android Engineer with 7+ years of experience, working mostly in
+                            I'm a Senior Android Engineer with 7+ years of experience and 29+ production apps, working mostly in
                             <strong>Kotlin</strong> and <strong>Jetpack Compose</strong>. Most recently at
                             <strong>Dario Health</strong>, I architected a <strong>Kotlin Multiplatform</strong> and
                             <strong>Compose Multiplatform</strong> SDK that shares business logic, state, networking and UI
@@ -202,16 +202,23 @@
                             Before that, at <strong>Samsung R&amp;D Institute India</strong>, I built a new Android module from
                             scratch for a confidential enterprise app, led a team of 5 engineers, trained 50+ engineers on MVVM
                             and Data Binding, and worked on Galaxy Watch features. My first four years were at service-based
-                            companies, working on 27+ projects across healthcare, e-commerce, education, food, agriculture,
+                            companies, working on 29+ projects across healthcare, e-commerce, education, food, agriculture,
                             gaming and social, often as the lead Android developer.
                         </p>
                         <p>
-                            At Dario I also worked directly on the <strong>Dario Health Android app</strong>: features for its
-                            GLP-1 program phase and other product areas, app security, and WCAG 2.1 accessibility.
+                            At Dario I also worked directly on the <strong>Dario Health Android app</strong>. I owned security for
+                            patient health data (field-level Firebase encryption, encrypted local storage, secure Amazon S3 media
+                            access, and root and emulator detection written in C/C++ with the Android NDK), built the
+                            <strong>GLP Screening flow</strong> (10+ screens), multilingual onboarding and consent flows,
+                            re-architected native Chat, and implemented WCAG 2.1 accessibility.
+                        </p>
+                        <p>
+                            Earlier, in service-based companies, I shipped client apps such as <strong>Taleek</strong>, a
+                            language-learning app in 7 languages with 10L+ (1M+) downloads on Google Play.
                         </p>
                         <p>
                             I care about clean architecture, accessible UI and well-designed SDK APIs. I use AI tools every day,
-                            always with an engineer reviewing the output. Outside product work, I have ported custom ROMs and
+                            always with an engineer reviewing the output. Outside product work, I have maintained Octavi OS for the Asus Zenfone Max Pro M1, ported custom ROMs and
                             patched kernels for the Micromax A102.
                         </p>
                     </div>
@@ -221,7 +228,9 @@
                             <div><dt>Role</dt><dd>Senior Android Engineer</dd></div>
                             <div><dt>Focus</dt><dd>Kotlin · Jetpack Compose · Kotlin Multiplatform · Compose Multiplatform · Mobile SDKs</dd></div>
                             <div><dt>Status</dt><dd>Open to Senior Android &amp; KMP roles · Immediate joiner</dd></div>
-                            <div><dt>Location</dt><dd>India · Open to relocation &amp; remote</dd></div>
+                            <div><dt>Location</dt><dd>Gurgaon, India · Open to relocation &amp; remote</dd></div>
+                            <div><dt>Experience</dt><dd>7 years 2 months · Dario Health, Samsung R&amp;D, service-based companies</dd></div>
+                            <div><dt>Certified</dt><dd>Android Development Using Kotlin, 90th percentile (TestGorilla)</dd></div>
                             <div><dt>Languages</dt><dd>English, Hindi, Bengali</dd></div>
                         </dl>
                     </aside>
@@ -229,8 +238,8 @@
 
                 <ul class="stats" aria-label="Highlights">
                     <li class="stats__item card reveal"><span class="stats__num">7+</span><span class="stats__label">Years in Android</span></li>
-                    <li class="stats__item card reveal"><span class="stats__num">1L+</span><span class="stats__label">Active users on the Dario Health app I worked on</span></li>
-                    <li class="stats__item card reveal"><span class="stats__num">27+</span><span class="stats__label">Projects worked on</span></li>
+                    <li class="stats__item card reveal"><span class="stats__num">10L+</span><span class="stats__label">Downloads on Taleek, a language-learning app I worked on</span></li>
+                    <li class="stats__item card reveal"><span class="stats__num">29+</span><span class="stats__label">Production apps worked on</span></li>
                     <li class="stats__item card reveal"><span class="stats__num">50+</span><span class="stats__label">Engineers trained at Samsung</span></li>
                 </ul>
 
@@ -277,6 +286,7 @@
                     <li class="timeline__item reveal">
                         <div class="timeline__meta">
                             <p class="timeline__date"><time datetime="2024-09">Sep 2024</time> – <time datetime="2026-08">Aug 2026</time></p>
+                            <p class="timeline__place">Gurgaon · Full time</p>
                         </div>
                         <div class="timeline__body card">
                             <h3>Senior Software Engineer <span class="at">@ Dario Health</span></h3>
@@ -284,24 +294,28 @@
                             <h4 class="exp-group">Dario Health Android app</h4>
                             <ul class="ticks">
                                 <li>Worked on the flagship <a href="https://play.google.com/store/apps/details?id=com.labstyle.darioandroid" target="_blank" rel="noopener">Dario Health Android app<span class="sr-only"> on Google Play (opens in a new tab)</span></a>, a healthcare app with 1L+ (100,000+) downloads and active users.</li>
-                                <li>Built Android features for the app's <strong>GLP-1 program</strong> phase, alongside other product features.</li>
-                                <li>Worked on app <strong>security</strong> for the Android app.</li>
+                                <li>Owned <strong>security for patient health information (PHI)</strong>: field-level Firebase encryption, encrypted local storage and secure Amazon S3 media access.</li>
+                                <li>Wrote <strong>root and emulator detection in C/C++ with the Android NDK</strong>, so the app could block use on compromised devices.</li>
+                                <li>Built the <strong>GLP Screening flow (10+ screens)</strong> for the GLP-1 program, plus multilingual onboarding and consent flows.</li>
+                                <li>Re-architected the native <strong>Chat</strong> feature.</li>
                                 <li>Accessibility to <strong>WCAG 2.1</strong>: Compose Semantics, TalkBack, VoiceOver, focus order, touch targets and dynamic font scaling.</li>
                                 <li>Modernized legacy parts of the app toward Kotlin, Jetpack Compose, Clean Architecture and modular features.</li>
                                 <li>Built native Android modules and bridges for React Native host apps.</li>
+                                <li>Took part in architecture and design reviews, PR reviews, and performance and stability work in Agile/Scrum sprints.</li>
                             </ul>
 
-                            <h4 class="exp-group">Kotlin Multiplatform SDK</h4>
+                            <h4 class="exp-group">Dario Journey SDK (Kotlin Multiplatform)</h4>
                             <ul class="ticks">
-                                <li>Architected a <strong>Kotlin Multiplatform</strong> + <strong>Compose Multiplatform</strong> SDK for Android and iOS, sharing business logic, state, networking and UI.</li>
+                                <li>Architected a <strong>Kotlin Multiplatform</strong> + <strong>Compose Multiplatform</strong> SDK for Android and iOS, sharing business logic, state, networking and UI, built with Ktor, SQLDelight and Koin.</li>
                                 <li>Designed the SDK: DSL configuration API, core journey engine, MVI state layer, Compose renderers, design system and platform abstractions (media, analytics, image loading, deep links, auth).</li>
+                                <li>Shaped the public API so host apps, native or React Native, could plug in their own media, analytics, image loading, deep links and authentication.</li>
                                 <li>Built the <strong>Discover</strong> module in Compose Multiplatform (MVI/UDF, Coroutines, Flow), shipped on Android and iOS from one codebase.</li>
                             </ul>
 
                             <h4 class="exp-group">AI-assisted engineering</h4>
                             <ul class="ticks">
                                 <li>Contributed to an internal AI developer agent that turns PRDs and codebase context into technical approaches, Confluence docs and Jira tasks, always reviewed by engineers.</li>
-                                <li>Daily AI-assisted development with Cursor, Claude, Gemini and GitHub Copilot.</li>
+                                <li>Daily AI-assisted development with Cursor, Claude, Claude Code, Gemini, GitHub Copilot, ChatGPT, Codex and MCP, with every change reviewed before it ships.</li>
                             </ul>
                         </div>
                     </li>
@@ -309,16 +323,17 @@
                     <li class="timeline__item reveal">
                         <div class="timeline__meta">
                             <p class="timeline__date"><time datetime="2023-04">Apr 2023</time> – <time datetime="2024-04">Apr 2024</time></p>
-                            <p class="timeline__place">Noida</p>
+                            <p class="timeline__place">Noida · On-site</p>
                         </div>
                         <div class="timeline__body card">
                             <h3>Engineer <span class="at">@ Samsung R&amp;D Institute India</span></h3>
                             <ul class="ticks">
-                                <li>Built a new Android module from scratch for a confidential enterprise app (Kotlin, MVVM, Data Binding, Jetpack).</li>
-                                <li>Led a team of 5 engineers: Jira, sprint execution and task allocation.</li>
-                                <li>Trained 50+ engineers, from freshers to managers, on MVVM and Data Binding.</li>
-                                <li>Worked on Galaxy Watch Contacts and Emergency Contacts, with wearable UI and touch targets tuned for small screens.</li>
-                                <li>Kept code quality up through code reviews and SonarQube.</li>
+                                <li>Built a new Android module from scratch for a confidential enterprise app using Kotlin, Android SDK, MVVM, Data Binding and Jetpack, delivered within sprint timelines.</li>
+                                <li>Led a team of <strong>5 engineers</strong>: broke features into Jira tickets, assigned work, ran sprint execution and coordinated technical decisions.</li>
+                                <li>Designed and ran MVVM and Data Binding training for <strong>50+ engineers</strong>, from freshers to managers, supporting the move away from legacy MVC code.</li>
+                                <li>Developed <strong>Galaxy Watch</strong> Contacts features, including the Emergency Contacts logic and wearable UI/UX.</li>
+                                <li>Improved touch targets and interaction behaviour for small wearable screens, with accessibility in mind.</li>
+                                <li>Kept code quality high through peer code reviews and SonarQube, and fixed lifecycle and production issues.</li>
                             </ul>
                         </div>
                     </li>
@@ -326,16 +341,22 @@
                     <li class="timeline__item reveal">
                         <div class="timeline__meta">
                             <p class="timeline__date"><time datetime="2019-02">Feb 2019</time> – <time datetime="2023-03">Mar 2023</time></p>
+                            <p class="timeline__place">Jaipur &amp; remote</p>
                         </div>
                         <div class="timeline__body card">
-                            <h3>Service Based Companies Experience <span class="at">· Android Developer</span></h3>
+                            <h3>Android Developer <span class="at">@ Service-Based Companies</span></h3>
                             <ul class="ticks">
-                                <li>Worked on 27+ projects across healthcare, e-commerce, education, food, agriculture, gaming and social.</li>
-                                <li>Lead Android developer on several of them (KOSO, Offleash'd, Subsational, Storywise for Pencils of Promise); enhancement, maintenance and UI design work on others.</li>
-                                <li>Kotlin, Java, MVVM, MVP, Retrofit, Room, Hilt, Coroutines/Flow, Jetpack DataStore and Data Binding.</li>
+                                <li>Worked on 29+ production apps across healthcare, e-commerce, education, food, agriculture, gaming and social, for clients in India and the US.</li>
+                                <li>Worked on <strong>Taleek</strong>, a language-learning app in 7 languages with <strong>10L+ (1M+) downloads</strong>, live Twilio sessions and Razorpay subscriptions.</li>
+                                <li>Lead Android developer on KOSO, Offleash'd, Subsational and Storywise (Pencils of Promise); enhancement, maintenance and UI design on others.</li>
+                                <li>Delivered 6+ major apps in my longest role, 5+ apps in my first role, and 3+ apps (2 of them independently) in a remote team of 5+.</li>
+                                <li>Owned features from client requirements and technical specifications through implementation, Play Store release and production support with Firebase Crashlytics.</li>
+                                <li>Kotlin, Java, MVVM, MVP, Retrofit, REST, Room, Hilt, Coroutines/Flow, Jetpack DataStore and Data Binding.</li>
                                 <li>Payments (Razorpay, Stripe, Braintree, Google Pay), social login, FCM, Google Maps, Twilio and offline sync.</li>
+                                <li>Migrated Java modules to Kotlin and improved UI, performance and maintainability of existing client codebases.</li>
                                 <li>Media and release work: ExoPlayer video playback, R8 and ProGuard configuration.</li>
-                                <li>Gathered client requirements and did UI design work on apps like KKM, Subsational and DealZapp.</li>
+                                <li>Wrote specifications and technical documentation, and did UI design work on apps like KKM, Subsational and DealZapp.</li>
+                                <li>Recognised as Employee of the Month (Sep 2019), The Difference Builder (Dec 2019, UI/UX creativity) and Star Performer of the Month.</li>
                             </ul>
                             <a class="text-link" href="#apps">See the projects <span aria-hidden="true">→</span></a>
                         </div>
@@ -360,12 +381,13 @@
                         <h3 id="f-dario">Dario Health Android app</h3>
                         <p>
                             Dario's flagship healthcare app, with 1L+ (100,000+) downloads and active users. Beyond the SDK, I worked
-                            directly in the Android app: features for its <strong>GLP-1 program</strong> phase and other product
-                            areas, app <strong>security</strong>, <strong>WCAG 2.1</strong> accessibility, and modernizing legacy
-                            code toward Kotlin, Jetpack Compose, Clean Architecture and modular features.
+                            directly in the Android app: <strong>security for patient health data</strong>, the
+                            <strong>GLP Screening flow</strong> (10+ screens), multilingual onboarding and consent flows, a
+                            re-architected native <strong>Chat</strong>, <strong>WCAG 2.1</strong> accessibility, and modernizing
+                            legacy code toward Kotlin, Jetpack Compose, Clean Architecture and modular features.
                         </p>
                         <ul class="chips" aria-label="Technologies">
-                            <li>Kotlin</li><li>Jetpack Compose</li><li>Clean Architecture</li><li>Modular features</li><li>WCAG 2.1</li><li>TalkBack</li>
+                            <li>Kotlin</li><li>Jetpack Compose</li><li>Android NDK</li><li>Firebase</li><li>AWS S3</li><li>Clean Architecture</li><li>WCAG 2.1</li><li>TalkBack</li>
                         </ul>
                         <a class="btn btn--primary btn--store" href="https://play.google.com/store/apps/details?id=com.labstyle.darioandroid" target="_blank" rel="noopener">
                             <svg aria-hidden="true" viewBox="0 0 24 24" class="i"><path d="M5 3.5v17l9-8.5-9-8.5zM14 12l3.2-3 3 1.7a1.5 1.5 0 0 1 0 2.6l-3 1.7L14 12z"/></svg>
@@ -373,11 +395,12 @@
                         </a>
                     </div>
                     <ul class="areas" aria-label="Areas I worked on in the app">
-                        <li class="areas__item areas__item--wide"><strong>GLP-1 program</strong><span>Android features for the GLP-1 program phase</span></li>
-                        <li class="areas__item"><strong>Security</strong><span>App security work</span></li>
+                        <li class="areas__item areas__item--wide"><strong>PHI security</strong><span>Field-level Firebase encryption, encrypted storage, secure S3 media, NDK root &amp; emulator detection</span></li>
+                        <li class="areas__item"><strong>GLP Screening</strong><span>10+ screens for the GLP-1 program</span></li>
+                        <li class="areas__item"><strong>Chat</strong><span>Native Chat re-architecture</span></li>
+                        <li class="areas__item"><strong>Onboarding</strong><span>Multilingual onboarding and consent flows</span></li>
                         <li class="areas__item"><strong>Accessibility</strong><span>WCAG 2.1, TalkBack, focus order, font scaling</span></li>
-                        <li class="areas__item"><strong>Modernization</strong><span>Kotlin, Compose, Clean Architecture</span></li>
-                        <li class="areas__item"><strong>Product features</strong><span>Other features across the app</span></li>
+                        <li class="areas__item areas__item--wide"><strong>Modernization</strong><span>Kotlin, Jetpack Compose, Clean Architecture, modular features</span></li>
                     </ul>
                 </article>
 
@@ -392,7 +415,7 @@
                             Compose renderers draw it with a shared design system.
                         </p>
                         <ul class="chips" aria-label="Technologies">
-                            <li>Kotlin Multiplatform</li><li>Compose Multiplatform</li><li>MVI</li><li>Kotlin DSL</li><li>Coroutines</li><li>Flow</li>
+                            <li>Kotlin Multiplatform</li><li>Compose Multiplatform</li><li>Ktor</li><li>SQLDelight</li><li>Koin</li><li>MVI</li><li>Kotlin DSL</li><li>Coroutines</li><li>Flow</li>
                         </ul>
                     </div>
                     <figure class="arch" aria-label="SDK architecture, from host apps down to platform abstractions">
@@ -426,23 +449,29 @@
                     </article>
                 </div>
 
-                <div class="grid-3 features-small">
+                <div class="grid-3 grid-4 features-small">
+                    <article class="card project reveal" aria-labelledby="f-security">
+                        <p class="feature__kicker">Dario · Security</p>
+                        <h3 id="f-security">Patient data security</h3>
+                        <p>Protected patient health information with field-level Firebase encryption, encrypted local storage and secure Amazon S3 media access, plus root and emulator detection written in C/C++ with the Android NDK.</p>
+                        <ul class="chips"><li>Android NDK</li><li>C/C++</li><li>Encryption</li><li>Firebase</li><li>AWS S3</li></ul>
+                    </article>
                     <article class="card project reveal" aria-labelledby="f-discover">
-                        <p class="feature__kicker">Dario Health · Android &amp; iOS</p>
+                        <p class="feature__kicker">Dario · Android &amp; iOS</p>
                         <h3 id="f-discover">Discover module</h3>
                         <p>A feature module built once in Compose Multiplatform and shipped on both Android and iOS, using MVI / unidirectional data flow with Coroutines and Flow.</p>
                         <ul class="chips"><li>Compose Multiplatform</li><li>MVI / UDF</li><li>Coroutines</li><li>Flow</li></ul>
                     </article>
                     <article class="card project reveal" aria-labelledby="f-watch">
-                        <p class="feature__kicker">Samsung R&amp;D · Wearables</p>
+                        <p class="feature__kicker">Samsung · Wearables</p>
                         <h3 id="f-watch">Galaxy Watch Contacts</h3>
                         <p>Contacts and Emergency Contacts features for Galaxy Watch, with a wearable UI and touch targets tuned for small screens.</p>
                         <ul class="chips"><li>Galaxy Watch</li><li>Wearable UI</li><li>Touch targets</li></ul>
                     </article>
                     <article class="card project reveal" aria-labelledby="f-rom">
-                        <p class="feature__kicker">Community · Android platform</p>
+                        <p class="feature__kicker">Android platform</p>
                         <h3 id="f-rom">Custom ROMs</h3>
-                        <p>MIUI 9 port and AOSP-JDC for the Micromax A102 (MT6572), plus kernel patches, build scripts and Android tooling.</p>
+                        <p>Octavi OS for the Asus Zenfone Max Pro M1, plus a MIUI 9 port and AOSP-JDC for the Micromax A102 (MT6572), with kernel patches and build scripts.</p>
                         <a class="text-link" href="#roms">See the XDA threads <span aria-hidden="true">→</span></a>
                     </article>
                 </div>
@@ -465,8 +494,8 @@
                         <div class="app__body">
                             <h3>Dario Health</h3>
                             <p class="app__cat">Healthcare · Dario Health · Senior Software Engineer</p>
-                            <p>Dario's flagship app for tracking blood glucose, blood pressure and weight, with 1L+ (100,000+) downloads and active users. I built features for the app's GLP-1 program phase and other product features, worked on app security and WCAG 2.1 accessibility, and modernized legacy code toward Kotlin, Jetpack Compose and Clean Architecture.</p>
-                            <ul class="chips"><li>Kotlin</li><li>Jetpack Compose</li><li>Clean Architecture</li><li>GLP-1 program</li><li>Security</li><li>WCAG 2.1</li></ul>
+                            <p>Dario's flagship app for tracking blood glucose, blood pressure and weight, with 1L+ (100,000+) downloads and active users. I owned patient-data security (Firebase field encryption, encrypted storage, secure S3 media, NDK root and emulator detection), built the GLP Screening flow (10+ screens), re-architected Chat, and worked on WCAG 2.1 accessibility and Compose modernization.</p>
+                            <ul class="chips"><li>Kotlin</li><li>Jetpack Compose</li><li>Clean Architecture</li><li>GLP-1 program</li><li>Android NDK</li><li>Security</li><li>WCAG 2.1</li></ul>
                             <a class="text-link app__link" href="https://play.google.com/store/apps/details?id=com.labstyle.darioandroid&amp;hl=en_IN" target="_blank" rel="noopener">Google Play<span class="sr-only"> listing for Dario Health (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
                         </div>
                     </li>
@@ -488,7 +517,7 @@
                         <div class="app__body">
                             <h3>Taleek – Language Lessons</h3>
                             <p class="app__cat">Language learning · App enhancement</p>
-                            <p>Video lessons from native speakers in 6 languages, with 10L+ (1M+) downloads, live sessions over Twilio and Razorpay subscriptions. I worked on video playback with ExoPlayer and the app's R8 / ProGuard setup.</p>
+                            <p>Video lessons from native speakers in 7 languages, with 10L+ (1M+) downloads, live sessions over Twilio and Razorpay subscriptions. I worked on video playback with ExoPlayer and the app's R8 / ProGuard setup.</p>
                             <ul class="chips"><li>ExoPlayer</li><li>Twilio</li><li>Razorpay</li><li>R8</li><li>ProGuard</li><li>MVVM</li></ul>
                             <a class="text-link app__link" href="https://play.google.com/store/apps/details?id=com.taleek.app" target="_blank" rel="noopener">Google Play<span class="sr-only"> listing for Taleek (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
                         </div>
@@ -585,6 +614,28 @@
                             <p class="app__note">No longer listed on Google Play</p>
                         </div>
                     </li>
+                    <li class="app card reveal">
+                        <span class="app__icon app__icon--glyph app__icon--roomkeys" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><circle cx="12" cy="13.5" r="2"/><path d="M12 15.5V18"/></svg>
+                        </span>
+                        <div class="app__body">
+                            <h3>Roomkeys</h3>
+                            <p class="app__cat">Real estate · Sep – Dec 2019</p>
+                            <p>A property search app from my first Android role, built from client requirements and specifications.</p>
+                            <ul class="chips"><li>Property search</li><li>Android</li><li>Client requirements</li></ul>
+                        </div>
+                    </li>
+                    <li class="app card reveal">
+                        <span class="app__icon app__icon--glyph app__icon--health" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>
+                        </span>
+                        <div class="app__body">
+                            <h3>Quarantine Alert</h3>
+                            <p class="app__cat">Healthcare · Mar – Apr 2020</p>
+                            <p>An app for daily health check-ups.</p>
+                            <ul class="chips"><li>Healthcare</li><li>Daily check-ups</li><li>Android</li></ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -600,28 +651,40 @@
 
                 <div class="grid-3 stack">
                     <div class="card reveal">
-                        <h3>Languages &amp; UI</h3>
-                        <ul class="chips"><li>Kotlin</li><li>Java</li><li>Jetpack Compose</li><li>XML views</li><li>Data Binding</li><li>Wearable UI</li></ul>
+                        <h3>Languages</h3>
+                        <ul class="chips"><li>Kotlin (7 yrs)</li><li>Java (7 yrs)</li><li>XML</li><li>JavaScript</li><li>Groovy</li><li>C/C++ (NDK security)</li></ul>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Android &amp; UI</h3>
+                        <ul class="chips"><li>Android SDK</li><li>Jetpack Compose</li><li>Material 3</li><li>View system</li><li>Data Binding</li><li>ViewModel</li><li>Lifecycle</li><li>Navigation</li><li>Room</li><li>DataStore</li><li>Paging</li><li>WorkManager</li><li>Wearable UI</li></ul>
                     </div>
                     <div class="card reveal">
                         <h3>Multiplatform</h3>
-                        <ul class="chips"><li>Kotlin Multiplatform</li><li>Compose Multiplatform</li><li>Shared design system</li><li>Platform abstractions</li></ul>
+                        <ul class="chips"><li>Kotlin Multiplatform</li><li>Compose Multiplatform</li><li>expect/actual</li><li>Ktor</li><li>SQLDelight</li><li>Koin</li><li>Kotlin Serialization</li><li>Shared design system</li><li>Platform abstractions</li></ul>
                     </div>
                     <div class="card reveal">
                         <h3>Architecture</h3>
-                        <ul class="chips"><li>Clean Architecture</li><li>MVI / UDF</li><li>MVVM</li><li>MVP</li><li>Modular features</li><li>SDK &amp; DSL API design</li></ul>
+                        <ul class="chips"><li>Clean Architecture</li><li>MVI / UDF</li><li>MVVM</li><li>MVP</li><li>SOLID</li><li>Multi-module</li><li>SDK &amp; DSL API design</li></ul>
                     </div>
                     <div class="card reveal">
-                        <h3>Async, DI &amp; data</h3>
-                        <ul class="chips"><li>Coroutines</li><li>Flow</li><li>Hilt</li><li>Retrofit</li><li>Room</li><li>Jetpack DataStore</li><li>Offline sync</li><li>Jetpack</li></ul>
+                        <h3>Concurrency, DI &amp; data</h3>
+                        <ul class="chips"><li>Coroutines</li><li>Flow</li><li>StateFlow</li><li>SharedFlow</li><li>Hilt</li><li>Dagger 2</li><li>Koin</li><li>Retrofit</li><li>REST</li><li>SQLite</li><li>Offline-first</li></ul>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Mobile security</h3>
+                        <ul class="chips"><li>PHI protection</li><li>Firebase field-level encryption</li><li>Encrypted local storage</li><li>Root &amp; emulator detection (NDK)</li><li>Secure AWS S3 access</li></ul>
+                    </div>
+                    <div class="card reveal">
+                        <h3>Testing &amp; release</h3>
+                        <ul class="chips"><li>JUnit</li><li>Mockito</li><li>Espresso</li><li>Compose UI testing</li><li>Crashlytics</li><li>Firebase Analytics</li><li>Remote Config</li><li>CI/CD</li><li>GitHub Actions</li><li>GitLab CI</li><li>Gradle</li><li>Play Console</li><li>App Bundles (AAB)</li><li>R8 / ProGuard</li><li>Performance &amp; memory</li></ul>
                     </div>
                     <div class="card reveal">
                         <h3>Integrations</h3>
                         <ul class="chips"><li>Razorpay</li><li>Stripe</li><li>Braintree</li><li>Google Pay</li><li>FCM</li><li>Google Maps</li><li>Twilio</li><li>ExoPlayer</li><li>Folio Reader SDK</li><li>Social login</li><li>React Native bridges (Android side)</li></ul>
                     </div>
                     <div class="card reveal">
-                        <h3>Quality, security &amp; process</h3>
-                        <ul class="chips"><li>Code reviews</li><li>SonarQube</li><li>R8 / ProGuard</li><li>App security</li><li>Swagger</li><li>Jira</li><li>Confluence</li><li>WCAG 2.1</li></ul>
+                        <h3>Process &amp; tools</h3>
+                        <ul class="chips"><li>Agile / Scrum</li><li>Design reviews</li><li>Code reviews</li><li>Technical design docs</li><li>SonarQube</li><li>Jira</li><li>Confluence</li><li>Android Studio</li><li>Git</li><li>WCAG 2.1</li><li>AOSP</li></ul>
                     </div>
                 </div>
             </div>
@@ -640,8 +703,12 @@
                 <ul class="tools reveal" aria-label="AI tools I use daily">
                     <li class="card">Cursor</li>
                     <li class="card">Claude</li>
+                    <li class="card">Claude Code</li>
                     <li class="card">Gemini</li>
                     <li class="card">GitHub Copilot</li>
+                    <li class="card">ChatGPT</li>
+                    <li class="card">Codex</li>
+                    <li class="card">MCP</li>
                 </ul>
 
                 <div class="card agent reveal">
@@ -685,10 +752,16 @@
                 <header class="section-header reveal">
                     <p class="section-label">08 / Custom ROMs &amp; open source</p>
                     <h2 id="roms-title">Under the hood.</h2>
-                    <p class="lead">Android platform work from the XDA community: ROM ports, kernel patches and build scripts.</p>
+                    <p class="lead">Android platform work from the XDA community: ROM maintenance and ports, kernel patches and build scripts.</p>
                 </header>
 
-                <div class="grid-3">
+                <div class="grid-3 grid-4">
+                    <article class="card project reveal" aria-labelledby="rom-octavi">
+                        <p class="feature__kicker">Zenfone · X00TD</p>
+                        <h3 id="rom-octavi">Octavi OS</h3>
+                        <p>Maintained Octavi OS for the Asus Zenfone Max Pro M1, including the device tree, kernel and framework patches.</p>
+                        <a class="text-link" href="https://github.com/amkrys/device_asus_X00TD" target="_blank" rel="noopener">Device tree on GitHub<span class="sr-only"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
+                    </article>
                     <article class="card project reveal" aria-labelledby="rom-miui">
                         <p class="feature__kicker">Micromax A102 · MT6572</p>
                         <h3 id="rom-miui">MIUI 9 port</h3>
@@ -725,16 +798,27 @@
 
                 <div class="grid-3">
                     <div class="card reveal">
-                        <p class="feature__kicker">Education · 2019</p>
-                        <h3>B.Tech, Computer Science &amp; Engineering</h3>
+                        <p class="feature__kicker">Education · 2015 – 2019</p>
+                        <h3>B.Tech, Computer Science &amp; Engineering · 74%</h3>
                         <p>Bhartiya Institute of Engineering &amp; Technology, Sikar (Rajasthan Technical University)</p>
+                    </div>
+                    <div class="card reveal">
+                        <p class="feature__kicker">Certification · Sep 2026</p>
+                        <h3>Android Development Using Kotlin</h3>
+                        <p>Scored in the 90th percentile on TestGorilla.</p>
                     </div>
                     <div class="card reveal">
                         <p class="feature__kicker">Awards</p>
                         <ul class="ticks">
                             <li><strong>Star Performer of the Month</strong>, at a service-based company</li>
                             <li><strong>Employee of the Month</strong>, Sep 2019, in my first role</li>
+                            <li><strong>The Difference Builder</strong>, Dec 2019, for UI/UX creativity</li>
                         </ul>
+                    </div>
+                    <div class="card reveal">
+                        <p class="feature__kicker">Recommendations</p>
+                        <h3>10 LinkedIn recommendations</h3>
+                        <p>From colleagues, including at Samsung R&amp;D. <a href="#recommendations">Read a few below</a>.</p>
                     </div>
                     <div class="card reveal">
                         <p class="feature__kicker">Off the clock</p>
@@ -745,14 +829,126 @@
             </div>
         </section>
 
+        <!-- recommendations
+        ================================================== -->
+        <section class="section section--alt" id="recommendations" aria-labelledby="recs-title">
+            <div class="container">
+                <header class="section-header reveal">
+                    <p class="section-label">10 / Recommendations</p>
+                    <h2 id="recs-title">What people say.</h2>
+                    <p class="lead">From people I've worked with at Samsung R&amp;D and beyond, quoted as written on LinkedIn.</p>
+                </header>
+
+                <ul class="recs">
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>I had the pleasure of working alongside Bal Krishan on a critical Android project at Samsung, and I can confidently say he’s one of the most reliable and technically sound developers I’ve collaborated with. His deep understanding of Android architecture, along with his clean and efficient coding practices, played a vital role in delivering a high-performance, scalable solution under tight deadlines.</p>
+                            <p>Bal Krishan not only brings strong technical skills but also a collaborative spirit—always ready to support team members, share insights, and push for the best possible outcome. His attention to detail and proactive problem-solving made a significant impact on the project's success. I highly recommend him for any role that values innovation, ownership, and teamwork.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">AK</span>
+                            <p><strong>Amit Kumar</strong><span>Lead Engineer, Samsung R&amp;D Noida</span><span>Same team · Jul 2025</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>Bal Krishan is one of the most knowledgeable Android developers I've had the pleasure of working with. His expertise spans modern Android development, performance optimization, architecture design, and debugging complex issues. He consistently delivers reliable solutions while maintaining high engineering standards.</p>
+                            <p>Apart from being technically strong, he's an excellent mentor who encourages knowledge sharing and teamwork. His professionalism, dedication, and ability to guide others make him a valuable asset to any engineering organization. I strongly recommend him for roles requiring both technical excellence and leadership.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">AS</span>
+                            <p><strong>Ashwini Saini</strong><span>SDE III, Capillary Technologies</span><span>Senior colleague · Jul 2026</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>I've had the pleasure of working closely with Krishna, who is not only a highly skilled Android developer but also a great mentor. His deep understanding of Android development has been invaluable to the team, and I've personally learned a great deal from him. Krishna consistently impresses with his ability to tackle complex challenges and deliver high-quality solutions. His knowledge spans across various aspects of Android development, from designing intuitive user interfaces to optimizing app performance.</p>
+                            <p>Beyond his technical expertise, Krishna is a fantastic team player and a natural leader. He is always willing to share his knowledge, whether it’s through one-on-one mentoring or team discussions. His ability to explain complex concepts in an accessible way has significantly contributed to my own professional growth and that of others on the team. Working with Krishna has been a highly rewarding experience. I highly recommend him for any role or project that requires top-notch Android development skills and leadership.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">AB</span>
+                            <p><strong>Aditya Biswas</strong><span>Android Developer, Samsung R&amp;D</span><span>Junior teammate · Aug 2024</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>Krishna is an exceptional Android developer and a great engineer who brings immense value to any team. During our time working together, I was consistently impressed by his ability to tackle complex technical challenges, optimize app performance, and design seamless user interfaces. He has a rare talent for breaking down complex concepts and is always eager to help his teammates grow. He is a phenomenal team player whose technical brilliance and collaborative leadership made a lasting, positive impact on my own professional development. I highly recommend him for any role or project looking for a top-tier Android expert and mentor!</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">MS</span>
+                            <p><strong>Manas Sahai</strong><span>Software Engineer, Samsung</span><span>Same team · Jul 2026</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>I had the pleasure of working with Bal Krishan on Android application development. He has a strong understanding of Kotlin, Java, MVVM, Clean Architecture, and modern Android architecture components. He consistently delivers high-quality, scalable solutions while maintaining clean and maintainable code. Beyond his technical expertise, Bal Krishan is proactive, dependable, and always willing to help the team solve complex problems. His strong debugging skills, attention to detail, and ownership of features make him a valuable asset to any engineering team. I highly recommend Bal Krishan to any organization looking for a skilled and experienced Android developer.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">KS</span>
+                            <p><strong>Kunal Sharma</strong><span>SDE, Samsung R&amp;D</span><span>Same team · Jul 2026</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>I had the opportunity to work with Krishna and was consistently impressed by his technical expertise, problem-solving ability, and commitment to delivering high-quality results. Krishna has a strong understanding of software development and is excellent at breaking down complex problems into practical, scalable solutions.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">RK</span>
+                            <p><strong>Ranjani Kamma</strong><span>Senior Software Engineer, Samsung Electronics</span><span>Same team · Jul 2026</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>I worked with Krishna in same team in samsung . He has vast knowledge of android concepts and is very coperative as team mate. He has great learning sprite and always egar to solve problems in best possible way . His great experience and knowledge made him stand out in the team . It was pleasure working with him.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">KY</span>
+                            <p><strong>Kranti Yadav</strong><span>SDE 3</span><span>Same team at Samsung · Aug 2024</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>You're decent, dedicated, experienced and fluent in mobile application development. I wish you could start working remotely from now onwards instead of seeking for jobs. You're one of the best teammate I've ever had brother!</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">SS</span>
+                            <p><strong>Sunmughan Swamy</strong><span>Founder &amp; CTO</span><span>Same team · May 2020</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>Bal Krishan's consistent professional track record, his empathetic nature, and ability to interact and co-ordinate with his team are beyond amazing. Although we never worked together, we have been connected on LinkedIn for quite some time, which made me write a few words for him. I have seen him participate in office activities, and heard some nice words from his peers. Keep up the good work 💯</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">NK</span>
+                            <p><strong>Neeti Kotia</strong><span>Content Writer &amp; author</span><span>Different teams · Oct 2023</span></p>
+                        </div>
+                    </li>
+                    <li class="rec card reveal">
+                        <blockquote class="rec__quote">
+                            <p>Bal Krishan is amazing at his job! he knows his way around people, he does whatever it takes to help his colleagues and get things done. He makes sure that everyone is on the same page and focused on the main goal. The success achieved in his job requires extensive knowledge and dedication. He is an asset to any company.</p>
+                        </blockquote>
+                        <div class="rec__by">
+                            <span class="rec__avatar" aria-hidden="true">DK</span>
+                            <p><strong>Dushyant Kumar</strong><span>Consultant at Bristlecone</span></p>
+                        </div>
+                    </li>
+                </ul>
+
+                <p class="recs__more reveal">
+                    <a class="text-link" href="https://www.linkedin.com/in/bal-krishan-swami/details/recommendations/" target="_blank" rel="noopener">See all recommendations on LinkedIn<span class="sr-only"> (opens in a new tab)</span> <span aria-hidden="true">↗</span></a>
+                </p>
+            </div>
+        </section>
+
         <!-- contact
         ================================================== -->
         <section class="section contact" id="contact" aria-labelledby="contact-title">
             <div class="container">
                 <div class="contact__panel reveal">
-                    <p class="section-label">10 / Contact</p>
+                    <p class="section-label">11 / Contact</p>
                     <h2 id="contact-title">Let's build something together.</h2>
-                    <p class="lead">I'm open to Senior Android and Kotlin Multiplatform roles. I can join immediately, and I'm based in India and open to relocation or remote work.</p>
+                    <p class="lead">I'm open to Senior Android and Kotlin Multiplatform roles. I can join immediately, and I'm based in Gurgaon, India and open to relocation or remote work.</p>
 
                     <div class="contact__actions">
                         <a class="btn btn--primary btn--lg" href="mailto:balkrishnaswami22@gmail.com">
@@ -771,7 +967,7 @@
                             <span class="brand-icon brand-icon--whatsapp" aria-hidden="true"></span>
                             WhatsApp<span class="sr-only"> (opens in a new tab)</span>
                         </a>
-                        <a class="btn btn--ghost btn--lg" href="data/resume.pdf" download="Bal-Krishan-Swami-SDE2-AI-Engineer-7-Years.pdf">
+                        <a class="btn btn--ghost btn--lg" href="data/resume.pdf" download="Bal-Krishan-Swami-Senior-Android-AI-Engineer-7-YOE.pdf">
                             <svg aria-hidden="true" viewBox="0 0 24 24" class="i"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>
                             Download resume
                         </a>
